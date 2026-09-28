@@ -1,0 +1,17 @@
+{
+  "name": "accenture-family-lab-landing",
+  "version": "1.0.0",
+  "description": "Landing page de Accenture Family Lab en colaboración con MindHub",
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i ./src/styles.css -o ./public/assets/css/styles.css --watch",
+    "build": "tailwindcss -i ./src/styles.css -o ./public/assets/css/styles.css --minify"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
